@@ -1,0 +1,53 @@
+.form-container {
+    width: 700px;
+    margin: 0 auto;
+    /* margin: 0 20px 0 0; */
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group label {
+    width: 200px; 
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control,
+  .select-control {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    outline: none;
+  }
+
+  
+  
+  .btn-submit {
+    position: fixed;
+    bottom: 100px;
+    right: 150px;
+    padding: 10px 20px;
+    background-color: #3A5AFE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; 
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  

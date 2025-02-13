@@ -1,0 +1,98 @@
+.home-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.home-container h3 {
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}
+.home-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.home-button {
+  padding: 12px 24px;
+  background-color: #3A5AFE;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #344BFD;
+}
+
+@media (max-width: 600px) {
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .home-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+  /*서비스 제목*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+}
+
+.styled-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4679b0;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+.image-link img {
+  width: 50px; 
+  height: auto;
+}
+.styled-link:hover {
+    color: #41556b;
+}
+.image-link {
+  display: inline-block;
+}
+
+.image-link img {
+  width: 100px; /* 원하는 크기로 조정 */
+  height: auto;
+  border-radius: 5px; /* 원하지 않으면 제거 */
+}
