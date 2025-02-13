@@ -1,0 +1,60 @@
+# General
+.DS_Store
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.eggs
+*.manifest
+*.spec
+
+# Virtual Environment
+project_api/venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+.history/
+
+# Environment Variables
+.env
+
+# macOS
+*.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+out/
+.next/
+
+# React Specific
+project/node_modules/
+project/.next/
+project/.cache/
+project/.idea/
+project/.vscode/
+project/.nuxt/
+project/.expo/
+project/.expo-shared/
+project/.eslintcache
+
+# Dependency directories
+**/node_modules
+
+# Package files
+project/package-lock.json
+project/yarn.lock
